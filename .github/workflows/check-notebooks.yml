@@ -5,11 +5,11 @@ on:
 
 jobs:
   Check-Notebooks:
-  runs-on: ubuntu-20.04
-  steps:
-    - name: 👉🏽 Setup environment
-      run: |
-        bash scripts/setup.sh
-    - name: 👉🏽 Run tests
-      run: |
-        bash scripts/check-notebooks.sh
+    runs-on: ubuntu-20.04
+    steps:
+      - name: 👉🏽 Setup environment
+        run: |
+          bash scripts/setup.sh
+      - name: 👉🏽 Run tests
+        run: |
+          bash scripts/check-notebooks.sh
