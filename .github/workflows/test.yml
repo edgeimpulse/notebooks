@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: 👉🏽 Use python 3.9
         uses: actions/setup-python@v4
-          with:
-            python-version: '3.9'
+        with:
+          python-version: '3.9'
       - name: 👉🏽 Checkout code
         uses: actions/checkout@v2
       - name: 👉🏽 Setup environment
