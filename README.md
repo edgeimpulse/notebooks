@@ -2,6 +2,8 @@
 
 Notebooks using the Edge Impulse libraries
 
+- [01 - Collect data from your development kit](./01-collect-data-from-board.ipynb)
+
 ## Contributing
 
 This repo uses `pipenv` to maintain a virtual development environment.
