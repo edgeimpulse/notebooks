@@ -14,4 +14,4 @@ jobs:
           bash scripts/setup.sh
       - name: 👉🏽 Run tests
         run: |
-          bash scripts/check-notebooks.sh
+          bash scripts/test.sh
