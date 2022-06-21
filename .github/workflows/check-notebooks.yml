@@ -10,6 +10,8 @@ jobs:
       - name: 👉🏽 Setup environment
         run: |
           bash scripts/setup.sh
+      - name: 👉🏽 Checkout code
+        uses: actions/checkout@v2
       - name: 👉🏽 Run tests
         run: |
           bash scripts/check-notebooks.sh
