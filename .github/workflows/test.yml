@@ -1,4 +1,4 @@
-name: Check Notebooks
+name: Test
 
 on:
   - pull_request
