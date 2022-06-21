@@ -6,4 +6,4 @@ repos:
         files: \.ipynb$
         stages: [commit]
         language: system
-        entry: jupyter nbconvert --clear-output --inplace
+        entry: pipenv run jupyter nbconvert --clear-output --inplace
