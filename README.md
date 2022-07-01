@@ -2,11 +2,11 @@
 
 Notebooks using the Edge Impulse libraries
 
-- [01 - Collect data from your development kit](./01-collect-data-from-board.ipynb)
+- [01 - Collect data from your development kit](./notebooks/01-collect-data-from-board.ipynb)
 
 ## Contributing
 
-This repo uses `pipenv` to maintain a virtual development environment.
+This repo uses `pipenv` to maintain a virtual development environment, therefore, it requires `python` 3.9 and `pip` to be installed in your development machine.
 
 ### Setup your development environment
 
