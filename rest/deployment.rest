@@ -1,0 +1,29 @@
+@host = studio.edgeimpulse.com
+@base=https://{{host}}/v1/api
+###
+
+# @name listProjectDownloads
+GET {{base}}/{{$dotenv projectId}}/downloads
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###
+
+# @name listTargets
+GET {{base}}/deployment/targets
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###
+
+# @name listProjectTargets
+GET {{base}}/{{$dotenv projectId}}/deployment/targets
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###
+
+# @name getProjectDownload
+GET {{base}}/{{$dotenv projectId}}/deployment/download
+    ?type=silabs-xg24
+    &modelType=int8
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###
