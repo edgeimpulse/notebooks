@@ -1,0 +1,27 @@
+@host = studio.edgeimpulse.com
+@base=https://{{host}}/v1/api
+@jobId=2485560
+###
+
+# @name buildModel
+POST {{base}}/{{$dotenv projectId}}/jobs/build-ondevice-model
+    ?type=silabs-xg24
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+
+{
+  "engine":"tflite-eon"
+}
+###
+
+# @name getJobStatus
+GET {{base}}/{{$dotenv projectId}}/jobs/{{jobId}}/status
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###
+
+# @name downloadJobLogs
+GET {{base}}/{{$dotenv projectId}}/jobs/{{jobId}}/stdout/download
+X-API-KEY: {{$dotenv apiKey}}
+Content-Type: application/json
+###

@@ -1,0 +1,29 @@
+# Making REST calls to the Edge Impulse API
+
+## Requirements
+
+This folder contains REST API definitions that can be used to access Edge Impulse via the API. These definitions may work in a variety of IDEs, but only VS Code has been tested.
+
+## 1. Create a `.env` file
+
+`.env` a.k.a. "dotenv" files can be used to add variable definitions to a development environment. In our case, we use a `.env` file to store sensitive and/or project-specific information used to make our REST API calls.
+
+`.env` files should NEVER be checked into version control.
+
+Create a `.env` file with the following contents:
+```
+projectId=<your project ID here>
+apiKey=<your project API key here>
+```
+
+If you don't have one yet, you can create and/or obtain a key from your project's Dashboard, under the `Keys` tab. API keys are long strings, and start with `ei_`:
+
+![Project API Key](../.assets/images/project-key.png)
+
+Your project's ID can be obtained from the project's Dashboard under the `Project Info` section:
+
+![Project API Key](../.assets/images/project-id.png)
+
+## 2. Run your REST request
+
+When opening any of the files with extension `.rest`, you should see a "Send Request" comment automatically added to each REST definition. Clicking on this comment should automatically send your request and show you the server's response.
