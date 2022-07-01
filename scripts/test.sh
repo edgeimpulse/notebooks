@@ -2,7 +2,7 @@
 set -e # Exit on error
 
 cd notebooks
-pipenv run jupyter nbconvert --clear-output --inplace notebooks.ipynb
+pipenv run jupyter nbconvert --clear-output --inplace *.ipynb
 # Check for changes (ignore mode changes)
 if [ -z "$(git -c core.fileMode=false status --porcelain)" ]; then
   echo "Repository is clean."
