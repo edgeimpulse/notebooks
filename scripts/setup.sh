@@ -5,7 +5,7 @@ set -e # Exit on error
 pip install pipenv
 
 # Tell pipenv to install all packages including dev dependencies
-pipenv install --dev
+pipenv sync --dev
 # Tell pipenv to install all packages including dev dependencies
 # and local directory as editable
 #pipenv install --dev -e .
