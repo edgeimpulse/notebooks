@@ -1,4 +1,6 @@
 [core]
-    remote = bucket
-['remote "bucket"']
+    remote = public
+['remote "private"']
     url = s3://github.com-edgeimpulse-notebooks
+['remote "public"']
+    url = https://bucket.s3.amazonaws.com/github.com-edgeimpulse-notebooks
