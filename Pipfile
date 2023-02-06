@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 jupyter = "*"
 nbconvert = "*"
+dvc = "*"
+dvc-s3 = "*"
 
 [dev-packages]
 pre-commit = "*"

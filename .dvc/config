@@ -1,0 +1,4 @@
+[core]
+    remote = bucket
+['remote "bucket"']
+    url = s3://github.com-edgeimpulse-notebooks
