@@ -3,4 +3,4 @@
 ['remote "private"']
     url = s3://github.com-edgeimpulse-notebooks
 ['remote "public"']
-    url = https://bucket.s3.amazonaws.com/github.com-edgeimpulse-notebooks
+    url = https://github.com-edgeimpulse-notebooks.s3.us-east-1.amazonaws.com
