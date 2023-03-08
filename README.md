@@ -3,7 +3,6 @@
 Notebooks using the Edge Impulse libraries
 
 - [01 - Collect data from your development kit](./notebooks/01-collect-data-from-board.ipynb)
-- [02 - Object counting on device using a FOMO model](./notebooks/02-object-counting-using-fomo.ipynb)
 
 ## Contributing
 
