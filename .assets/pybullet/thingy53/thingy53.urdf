@@ -1,0 +1,24 @@
+<robot name="thingy53">
+	<link name="_name">
+		
+		<visual>
+			<origin xyz="0.02977180615936878 -0.01182944632717566 0.03176079914341195" rpy="1.57079632679 0.0 0.0" />
+			<geometry>
+				<mesh filename="thingy53/thingy53 v2.obj" scale="1 1 1" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0.02977180615936878 -0.01182944632717566 0.03176079914341195" rpy="1.57079632679 0.0 0.0" />
+			<geometry>
+				<mesh filename="thingy53/thingy53 v2.obj" scale="1 1 1" />
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.06" />
+      		<inertia ixx="0.00002076125" ixy="0" ixz="0" iyy="0.00002324125" iyz="0" izz="0.00003848"/>
+		</inertial>
+	</link>
+</robot>
