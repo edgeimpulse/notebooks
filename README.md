@@ -6,6 +6,11 @@ This is a collection of Jupyter notebook examples and tutorials for helping user
 
 This repo uses `pipenv` to maintain a virtual development environment, therefore, it requires `python` 3.9 and `pip` to be installed in your development machine.
 
+Some notes about creating a notebook:
+ * The top-most cell should be a markdown cell with an H1 tag and title (e.g. `# My notebook title`) at the top of the cell
+ * Use absolute links (e.g. `https://raw.githubusercontent.com/edgeimpulse/notebooks/main/...`) so that the notebook can be used as documentation elsewhere
+ * When referring to code (functions, variables, etc.) in your markdown cells, enclose them in backticks (e.g. `int some_var`) to avoid getting picked up by the spellchecker (when converting your notebook to documentation)
+
 ### Setup your development environment
 
 This will install pipenv and all the virtual environment dependencies
