@@ -132,3 +132,6 @@ dmypy.json
 
 # OS specific
 .DS_Store
+
+# Converted markdown stuff
+notebooks/*.md

@@ -1,14 +1,6 @@
 # Notebooks
 
-Notebooks using the Edge Impulse libraries
-
-- [01 - Collect data from your development kit](./notebooks/01-collect-data-from-board.ipynb)
-- [02 - Object counting on device using a FOMO model](./notebooks/02-object-counting-using-fomo.ipynb)
-- [03 - Generating a Keyword dataset using Google Text to Speech](./notebooks/03-generate-keyword-spotting-dataset.ipynb) or [with Azure Text to Speech](./notebooks/03-generate-keyword-spotting-dataset-azure.ipynb))
-- [03 - Use OpenAI Dall-E to generate an image dataset for image classification](./notebooks/03-generate-dall-e-image-dataset.ipynb)
-- [04 - Use PyBullet to generate a physics simulation based dataset](./notebooks/04-generate-physics-simulation-dataset.ipynb)
-- [05 - How to Customize and Run the AutoML EON Tuner Programmatically](./notebooks/05-customize-the-EON-tuner.ipynb)
-
+This is a collection of Jupyter notebook examples and tutorials for helping users interact with Edge Impulse from Python environments. Refer to the [./notebooks/](notebooks) directory for a list of Jupyter notebook examples.
 
 ## Contributing
 
@@ -29,3 +21,38 @@ Pre-commit hooks must be run from the virtual development environment:
 ```shell
 pipenv run pre-commit run --all-files
 ```
+
+### Convert Notebook to Markdown
+
+To convert a notebook to markdown for the purpose of hosting on a documentation page, use [nbconvert](https://pypi.org/project/nbconvert/).
+
+First, make sure you have followed the setup instructions above. We'll use the pipenv virtual environment to create our markdown files.
+
+```
+pipenv run
+jupyter nbconvert --to markdown notebooks/<name-of-notebook>.ipynb
+mv notebooks/<name-of-notebook>.md ~/Downloads
+```
+
+Your markdown file will be in your Downloads folder. When you are done, issue the `exit` command to leave the virtual environment.
+
+> **Warning**
+> Make sure you check the markdown file! You might need to copy images out from the [.assets/](.assets) directory and change the links in the markdown file to ensure that they appear correctly.
+
+### License
+
+Unless otherwise specified, code in this repository is licensed under the APACHE 2.0 open source license.
+
+Copyright 2023 EdgeImpulse, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
