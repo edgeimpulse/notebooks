@@ -37,7 +37,7 @@ mv notebooks/<name-of-notebook>.md ~/Downloads
 Your markdown file will be in your Downloads folder. When you are done, issue the `exit` command to leave the virtual environment.
 
 > **Warning**
-> Make sure you check the markdown file! You might need to copy images out from the [.assets/](.assets) directory and change the links in the markdown file to ensure that they appear correctly.
+> Make sure you check the markdown file! You might need to copy images out from the [.assets/](.assets) directory and change the links in the markdown file to ensure that they appear correctly. Instead of copying the images, you can also use an absolute URL (e.g. `https://raw.githubusercontent.com/edgeimpulse/notebooks/main/.assets/images/<image-name>.png/jpg`) in your notebook link.
 
 ### License
 
