@@ -135,3 +135,9 @@ dmypy.json
 
 # Converted markdown stuff
 notebooks/*.md
+
+# Example dataset
+notebooks/dataset/
+
+# Images in the notebooks folder
+notebooks/*.png

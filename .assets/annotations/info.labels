@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path":"dog-ball-toy.01.png",
+      "category":"training",
+      "label": {
+        "type": "label",
+        "label": "dog-ball-toy"
+      },
+      "metadata": {
+        "source": "camera"
+      },
+      "boundingBoxes": [
+        {
+          "label": "dog",
+          "x": 69,
+          "y": 155,
+          "width": 102,
+          "height": 137
+        },
+        {
+          "label": "toy",
+          "x": 34,
+          "y": 80,
+          "width": 162,
+          "height": 81
+        }
+      ]
+    }, 
+    {
+      "path": "dog-ball-toy.02.png",
+      "name": "dog-ball-toy.02",
+      "category": "training",
+      "label": {
+        "type": "label",
+        "label": "dog-ball-toy"
+      },
+      "metadata": {
+        "source": "camera"
+      },
+      "boundingBoxes": [
+        {
+          "label": "toy",
+          "x": 94,
+          "y": 175,
+          "width": 78,
+          "height": 40
+        },
+        {
+          "label": "ball",
+          "x": 186,
+          "y": 225,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "label": "dog",
+          "x": 52,
+          "y": 68,
+          "width": 91,
+          "height": 86
+        }
+      ]
+    }
+  ]
+}
