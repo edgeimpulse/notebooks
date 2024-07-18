@@ -139,5 +139,8 @@ notebooks/*.md
 # Example dataset
 notebooks/dataset/
 
+# Example C++ .zip library
+notebooks/my_model_cpp.zip
+
 # Images in the notebooks folder
 notebooks/*.png
