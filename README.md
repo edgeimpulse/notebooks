@@ -34,7 +34,7 @@ To convert a notebook to markdown for the purpose of hosting on a documentation 
 First, make sure you have followed the setup instructions above. We'll use the pipenv virtual environment to create our markdown files.
 
 ```shell
-pipenv shell
+pypenv shell
 jupyter nbconvert --to markdown notebooks/<name-of-notebook>.ipynb
 mv notebooks/<name-of-notebook>.md ~/Downloads
 ```
